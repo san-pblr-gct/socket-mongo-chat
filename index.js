@@ -52,7 +52,6 @@ mongoClient.connect('mongodb://127.0.0.1/mongochat', function (err, database) {
                 // Insert message
                 chat.insert({ name: name, message: message }, function () {
                     io.emit('output', [data]);
-                    console.log(data);
                     sendStatus({
                         message: 'Message sent',
                         clear: true
