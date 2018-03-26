@@ -4,7 +4,7 @@ Key points while setting up:
 If you are using mongo first time, please do the below steps.
 1. install mongo from their website.
 2. Create a folder /data/db in C: (Mongo works only in this folder)
-3. Go to mongo bin located inside Programfiles and open command prompt and run "mongod"
+3. Go to mongo bin located inside Program files (C:\Program Files\MongoDB\Server\3.4\bin) and open command prompt and run "mongod"
 4. The above step will start mongodb
 5. Open separate command window inside mongo bin and run " mongo"
 
@@ -15,6 +15,9 @@ Some of the commands for mongo which you need to see the data.
 3. use xxx (xxx refers to the database you want to navigate to)
 4. show collections (show collections inside the database)
 5. db.xxx.find() (To show the data inside the collection, replace xxx with the collections)
+
+Mongo cheatsheet for future references
+https://gist.github.com/aponxi/4380516
 
 
 To run the application
